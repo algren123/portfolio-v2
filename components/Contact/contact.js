@@ -5,8 +5,8 @@ export const Contact = () => {
         <Card>
             <Intro>Email:<Link href="mailto: algren.pauna@gmail.com">algren.pauna@gmail.com</Link></Intro>
             <Intro>Mobile:<Outro>+447500325912</Outro></Intro>
-            <Intro>LinkedIn:<Link href="https://www.linkedin.com/in/algren-pauna/" target="_blank">Algren Pauna</Link></Intro>
-            <Intro>GitHub:<Link href="https://github.com/algren123" target="_blank">algren123</Link></Intro>
+            <Intro>LinkedIn:<Link href="https://www.linkedin.com/in/algren-pauna/" target="_blank" rel="noreferrer">Algren Pauna</Link></Intro>
+            <Intro>GitHub:<Link href="https://github.com/algren123" target="_blank" rel="noreferrer">algren123</Link></Intro>
         </Card>
     )
 }

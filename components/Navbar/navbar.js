@@ -27,6 +27,8 @@ export default function Navbar() {
             behavior: 'smooth',
             block: block
         });
+
+        closeMenu();
     }
 
     return (
@@ -50,13 +52,13 @@ export default function Navbar() {
 
                     <Menu onClick={handleClick} click={click}>
                         <MenuItem>
-                            <Button onClick={closeMenu} onClick={() => scrollTo('.projects', 'center')}>Projects</Button>
+                            <Button onClick={() => scrollTo('.projects', 'center')}>Projects</Button>
                         </MenuItem>
                         <MenuItem>
-                            <Button onClick={closeMenu} onClick={() => scrollTo('.work-experience', 'center')}>Experience</Button>
+                            <Button onClick={() => scrollTo('.work-experience', 'center')}>Experience</Button>
                         </MenuItem>
                         <MenuItem>
-                            <Button onClick={closeMenu} onClick={() => scrollTo('.contact', 'start')}>Contact</Button>
+                            <Button onClick={() => scrollTo('.contact', 'start')}>Contact</Button>
                         </MenuItem>
                     </Menu>
                 </Nav>
