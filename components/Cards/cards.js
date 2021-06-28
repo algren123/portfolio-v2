@@ -13,8 +13,8 @@ export const Cards = ({ img, title, description, live, github}) => {
                 <Title>{ title }</Title>
                 <Description>{ description}</Description>
                 <Actions>
-                    <Button><a href={live} target="_blank">Live Link</a></Button>
-                    <Button><a href={github} target="_blank">Github Repo Link</a></Button>
+                    <Button><a href={live} target="_blank" rel="noreferrer">Live Link</a></Button>
+                    <Button><a href={github} target="_blank" rel="noreferrer">Github Repo Link</a></Button>
                 </Actions>
             </Card>
     )
