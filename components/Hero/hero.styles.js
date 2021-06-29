@@ -26,7 +26,11 @@ export const Highlight = styled.span`
 
     &:hover, &:focus {
         text-decoration: underline;
-        text-decoration-thickness: 6px;
+        text-decoration-thickness: 8px;
+
+        @media only screen and (max-width: 1000px) {
+            text-decoration-thickness: 5px;
+        }
     }
 `
 export const HeroDescription = styled.h3`
