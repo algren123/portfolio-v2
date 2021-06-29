@@ -26,15 +26,25 @@ export const Highlight = styled.span`
 
     &:hover, &:focus {
         text-decoration: underline;
-        text-decoration-thickness: 8px;
+        text-decoration-thickness: 6px;
     }
 `
 export const HeroDescription = styled.h3`
-    font-size: 50px;
-
     @media only screen and (max-width: 1000px) {
         text-align: center;
         font-size: 22px;
+    }
+
+    @media only screen and (min-width: 1300px) {
+        font-size: 30px;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        font-size: 40px;
+    }
+
+    @media only screen and (min-width: 1900px) {
+        font-size: 50px;
     }
 `
 
@@ -61,4 +71,8 @@ export const Button = styled.button`
 export const TitleHighlight = styled.span`
     text-decoration: underline;
     text-decoration-color: #FA387F;
+    
+    @media only screen and (max-width: 1000px) {
+        text-decoration-thickness: 8px;
+    }
 `

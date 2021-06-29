@@ -9,7 +9,6 @@ export const NavContainer = styled.div`
     padding: 20px 30px;
     align-items: center;
     background-color: transparent;
-    cursor: pointer;
     z-index: 1;
 `
 export const Nav = styled.nav`
@@ -17,7 +16,6 @@ export const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     flex: 1;
-    cursor: pointer;
 `
 export const NavLogo = styled.div`
     position: relative;
@@ -26,6 +24,7 @@ export const NavLogo = styled.div`
     z-index: 1;
     align-items: center;
     display: flex;
+    cursor: pointer;
 `
 export const NavMenu = styled.div`
     display: flex;

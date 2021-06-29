@@ -35,7 +35,7 @@ export default function Navbar() {
         <>
             <NavContainer>
                 <Nav>
-                    <NavLogo onClick={() => scrollTo('.home', 'center')}>
+                    <NavLogo onClick={() => scrollTo('.home', 'end')}>
                         <Image
                             src="/personal_logo.png"
                             alt="personal-logo"
@@ -52,7 +52,7 @@ export default function Navbar() {
 
                     <Menu onClick={handleClick} click={click}>
                         <MenuItem>
-                            <Button onClick={() => scrollTo('.projects', 'center')}>Projects</Button>
+                            <Button onClick={() => scrollTo('.projects', 'start')}>Projects</Button>
                         </MenuItem>
                         <MenuItem>
                             <Button onClick={() => scrollTo('.work-experience', 'center')}>Experience</Button>
