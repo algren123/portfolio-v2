@@ -55,7 +55,7 @@ export default function Navbar() {
                             <Button onClick={() => scrollTo('.projects', 'start')}>Projects</Button>
                         </MenuItem>
                         <MenuItem>
-                            <Button onClick={() => scrollTo('.work-experience', 'center')}>Experience</Button>
+                            <Button onClick={() => scrollTo('.work-experience', 'start')}>Experience</Button>
                         </MenuItem>
                         <MenuItem>
                             <Button onClick={() => scrollTo('.contact', 'start')}>Contact</Button>

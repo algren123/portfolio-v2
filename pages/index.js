@@ -7,6 +7,7 @@ import styled from 'styled-components'
 import Hero from '../components/Hero/hero'
 import { Cards } from '../components/Cards/cards'
 import { Works } from '../components/Work/work'
+import { Techs } from '../components/Tech/techstack'
 import { Education } from '../components/Education/education'
 import { Contact } from '../components/Contact/contact'
 
@@ -106,6 +107,31 @@ export default function Home() {
             description="Cartea Daliei is a non-profit organization that works with children from Romania. I teach a class of 4 children aged between 11-12 the fundamentals of coding with Scratch.
             After 6 weeks of lessons, I have prepared them for a Hackathon-type project where they got to work together as a team and create an animation."
           />
+        </Container>
+
+        <Title className="tech-stack">Tech Stack</Title>
+        <Container>
+          <Techs
+            category="Frontend"
+            skillOne="HTML/CSS, Sass, JavaScript (including ES6), TypeScript"
+            skillTwo="React (with Hooks, Redux & Context), Angular"
+            skillThree="Bootstrap, Materialize, Bulma, Styled Components, TailwindCSS"
+            >
+          </Techs>
+          <Techs
+            category="Backend"
+            skillOne="Node.JS & Express"
+            skillTwo="MongoDB, Firebase & REST API's"
+            skillThree="I am currently still learning backend, however I have a good grasp of the communication between a server and a database"
+            >
+          </Techs>
+          <Techs
+            category="Others"
+            skillOne="Currently studying for the AWS Developer Certificate"
+            skillTwo="Adobe Photoshop, Illustrator, After Effects and Premiere Pro"
+            skillThree="3D Modelling and Rendering software such as Maya 3D, Nuke & 3DS Max"
+            >
+          </Techs>
         </Container>
 
         <Title className="education">Education</Title>
