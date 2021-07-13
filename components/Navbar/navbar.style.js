@@ -5,11 +5,15 @@ export const NavContainer = styled.div`
     position: sticky;
     top: 0;
     display: flex;
-    /* height: 100%; */
     padding: 20px 30px;
     align-items: center;
     background-color: transparent;
     z-index: 1;
+
+    @media only screen and (max-width: 1000px) {
+        background-color: #F3F5F7;
+        padding: 0px 30px;
+    }
 `
 export const Nav = styled.nav`
     display: flex;
@@ -58,12 +62,13 @@ export const NavMobile = styled.div`
 
 export const MenuIcon = styled.div`
 display: none;
+
 @media (max-width: 1000px) {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-50%, 85%);
+    transform: translate(-50%, 45%);
     font-size: 2rem;
     cursor: pointer;
 }
@@ -80,8 +85,8 @@ text-align: center;
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 80px;
-    left: ${({click}) => click ? '-9%' : '-120%'};
+    top: 60px;
+    left: ${({click}) => click ? '-11%' : '-120%'};
     background-color: #F3F5F7;
     transition: all .5s ease;
 }

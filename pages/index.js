@@ -114,7 +114,7 @@ export default function Home() {
           <Techs
             category="Frontend"
             skillOne="HTML/CSS, Sass, JavaScript (including ES6), TypeScript"
-            skillTwo="React (with Hooks, Redux & Context), Angular"
+            skillTwo="React (with Hooks, Redux & Context), Next.JS & Angular"
             skillThree="Bootstrap, Materialize, Bulma, Styled Components, TailwindCSS"
             >
           </Techs>
