@@ -23,8 +23,6 @@ export const Title = styled.h1`
     text-align: left;
     color: #90A9B7;
     cursor: default;
-    text-decoration: underline #FA387F;
-    text-decoration-thickness: 4px;
 `
 export const Company = styled.h2`
     color: #90A9B7;

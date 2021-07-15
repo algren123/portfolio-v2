@@ -29,22 +29,17 @@ export const Intro = styled.p`
     font-size: 16px;
     font-weight: 600;
     color: #90A9B7;
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: #FA387F;
     cursor: default;
 `
 
 export const Link = styled.a`
-    color: #90A9B7;
+    color: #FA387F;
     font-size: 18px;
     font-weight: 700;
     margin-left: .3em;
-    text-decoration-color: #FA387F;
 
     &:hover {
-        transition: all .3s ease;
-        color: #FA387F;
+        text-decoration: underline 4px;
     }
 `
 
