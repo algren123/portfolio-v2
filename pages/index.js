@@ -64,7 +64,7 @@ export default function Home() {
           <Cards
             img="/protor.JPG"
             title="Protor"
-            description="A full-stack application created with the MERN stack together with NextJS. It is a public board where people can request tradesmen services or professionals can create posts to advertise their services."
+            description="A full-stack application created with the MERN stack together with NextJS. It is a public board where people can post requests for tradesmen services or professionals can create posts to advertise their services."
             live="https://protor.vercel.app/"
             github="https://github.com/algren123/protor"
           />
@@ -105,7 +105,7 @@ export default function Home() {
             company="Vertu Motors"
             duration="February 2021 - Present"
             description="Working with Angular, TypeScript, JavaScript and of course HTML, CSS & SASS to maintain Vertu Motor's 14 websites.
-            I had the opportunities to work on various different parts of software development, from fixing bugs on the websites, to creating a chatbot"
+            I had the opportunity to work on various different parts of software development, from fixing bugs on the websites, to creating a chatbot"
           />
           <Works
             title="Code Hero Volunteer"
@@ -136,7 +136,7 @@ export default function Home() {
             category="Others"
             skillOne="Currently studying for the AWS Developer Certificate"
             skillTwo="Adobe Photoshop, Illustrator, After Effects and Premiere Pro"
-            skillThree="3D Modelling and Rendering software such as Maya 3D, Nuke & 3DS Max"
+            skillThree="Figma"
           >
           </Techs>
         </Container>
@@ -149,6 +149,7 @@ export default function Home() {
           description="I had the chance to work with some industry titans where I learnt the importance that the attention to detail has and what a good design foundation is.
           The VFX industry was not a right fit for me, which motivated me to self-teach coding. The material and lectures were eye-opening and they still impact the way I work in my daily web dev work."
         />
+
         <Title className="contact">Contact me!</Title>
         <Contact />
       </main>
