@@ -78,7 +78,7 @@ export default function Home() {
           <Cards
             img="/top-spotify-stats.JPG"
             title="Top Spotify Stats"
-            description="A website that uses Spotify's API to display some the user's listening statistics, such as top artists or songs of the week/month/all time. It uses Angular, TypeScript and TailwindCSS"
+            description="A website that uses Spotify's API to display the user's listening statistics, such as top artists or songs of the week/month/all time. It uses Angular, TypeScript and TailwindCSS"
             live="https://top-spotify-stats.herokuapp.com/"
             github="https://github.com/algren123/top-spotify-stats"
           />
@@ -120,23 +120,17 @@ export default function Home() {
         <Container>
           <Techs
             category="Frontend"
-            skillOne="HTML/CSS, Sass, JavaScript (including ES6), TypeScript"
-            skillTwo="React (with Hooks, Redux & Context), Next.JS & Angular"
-            skillThree="Bootstrap, Materialize, Bulma, Styled Components, TailwindCSS"
+            skills="HTML/CSS + Sass, JavaScript (including ES6), TypeScript, React (with Hooks Redux & Context), Angular, Next.JS, styled-components & TailwindCSS"
           >
           </Techs>
           <Techs
             category="Backend"
-            skillOne="Node.JS & Express"
-            skillTwo="MongoDB, Firebase & REST API's"
-            skillThree="I am currently still learning backend, however I have a good grasp of the communication between a server and a database"
+            skills="Node.JS, Express, MongoDB, Firebase, REST API's, PostgreSQL, SQL"
           >
           </Techs>
           <Techs
             category="Others"
-            skillOne="Currently studying for the AWS Developer Certificate"
-            skillTwo="Adobe Photoshop, Illustrator, After Effects and Premiere Pro"
-            skillThree="Figma"
+            skills="Currently studying for the AWS Developer Certificate, Adobe Photoshop, Illustrator, After Effects, Premiere Pro, Figma"
           >
           </Techs>
         </Container>
@@ -146,8 +140,8 @@ export default function Home() {
           course="BSc Visual Effects (VFX)"
           university="De Montfort University"
           duration="October 2017 - July 2020"
-          description="I had the chance to work with some industry titans where I learnt the importance that the attention to detail has and what a good design foundation is.
-          The VFX industry was not a right fit for me, which motivated me to self-teach coding. The material and lectures were eye-opening and they still impact the way I work in my daily web dev work."
+          description="I had the chance to work with some industry titans where I learnt the importance of attention to detail and what a good design foundation is.
+          The VFX industry was not a right fit for me, which motivated me to self-teach coding. The material and lectures were eye-opening and they still impact my daily web development work."
         />
 
         <Title className="contact">Contact me!</Title>

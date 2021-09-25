@@ -4,13 +4,17 @@ import {
     Skills
 } from './techstack.style'
 
-export const Techs = ({ category, skillOne, skillTwo, skillThree }) => {
+export const Techs = ({ category, skills }) => {
+    skills = skills.split(', ');
+    console.log(skills);
     return (
         <Card>
             <Category>{category}</Category>
-            <Skills>{skillOne}</Skills>
-            <Skills>{skillTwo}</Skills>
-            <Skills>{skillThree}</Skills>
+            <ul>
+                { skills.map((skill) => {
+                    return <Skills>{ skill }</Skills>
+                })}
+            </ul>
         </Card>
     )
 }

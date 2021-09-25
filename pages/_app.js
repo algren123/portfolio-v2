@@ -35,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
 
 export const Button = styled.button`
   background: #FA387F;
-  color: #333;
+  color: #fff;
   border: none;
   padding: 8px 20px;
   border-radius: 0.5rem;
@@ -48,7 +48,7 @@ export const Button = styled.button`
     transform: scale(1.08);
     box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.6);
     transition: all .5s ease;
-    color: #fff;
+    background: #DB0654;
     transition: all .5s ease;
   }
 `
