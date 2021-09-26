@@ -12,7 +12,7 @@ export const Techs = ({ category, skills }) => {
             <Category>{category}</Category>
             <ul>
                 { skills.map((skill) => {
-                    return <Skills>{ skill }</Skills>
+                    return <Skills key="">{ skill }</Skills>
                 })}
             </ul>
         </Card>
