@@ -65,7 +65,7 @@ export default function Home() {
             img="/protor.JPG"
             title="Protor"
             description="A full-stack application created with the MERN stack together with NextJS. It is a public board where people can post requests for tradesmen services or professionals can create posts to advertise their services."
-            live="https://protor.vercel.app/"
+            live="https://protor.uk/"
             github="https://github.com/algren123/protor"
           />
           <Cards
