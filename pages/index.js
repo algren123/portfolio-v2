@@ -1,7 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { BiCopyright } from 'react-icons/bi';
 import Navbar from '../components/Navbar/navbar';
 import styled from 'styled-components';
 import Hero from '../components/Hero/hero';
@@ -10,6 +8,7 @@ import { Works } from '../components/Work/work';
 import { Techs } from '../components/Tech/techstack';
 import { Education } from '../components/Education/education';
 import { Contact } from '../components/Contact/contact';
+import Footer from '../components/Footer/footer';
 
 const Title = styled.h1`
   font-size: 80px;
@@ -24,17 +23,6 @@ const Title = styled.h1`
     font-size: 40px;
     text-decoration-thickness: 6px;
   }
-`;
-
-const Footer = styled.footer`
-  text-align: center;
-  font-size: 13px;
-  padding: 2em;
-  background-color: #272727;
-  color: #fa387f;
-  font-weight: 600;
-  margin-top: 1.5em;
-  cursor: default;
 `;
 
 const Container = styled.div`
@@ -158,7 +146,7 @@ export default function Home() {
         <Contact />
       </main>
 
-      <Footer>Copyright 2021 Algren Pauna. All rights reserved.</Footer>
+      <Footer />
     </div>
   );
 }
