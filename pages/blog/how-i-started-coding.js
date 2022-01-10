@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import BlogPost from '../../components/BlogPost/BlogPost';
 import Navbar from '../../components/Navbar/navbar';
 import Footer from '../../components/Footer/footer';
+import BlogPost from '../../components/BlogPost/blogPost';
 import { Outro, Paragraph } from '../../components/Typography/typography';
 
 const Container = styled.div`
