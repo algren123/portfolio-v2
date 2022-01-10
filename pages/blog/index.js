@@ -86,7 +86,7 @@ const Blog = () => {
       </Head>
       <main>
         <Container>
-          <Title>Algren's Blog</Title>
+          <Title>Algren&apos;s Blog</Title>
           <ArticleContainer>
             {articles.map((article, index) => (
               <Link href={article.link} key={index}>
