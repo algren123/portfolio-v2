@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '../../components/Navbar/navbar';
+import Footer from '../../components/Footer/footer';
 
 const Container = styled.div`
   display: flex;
