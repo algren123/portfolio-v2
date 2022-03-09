@@ -1,9 +1,31 @@
-import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   * {
     font-family: 'Poppins', sans-serif;
   }
+
+  /* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #fa387f #F3F5F7;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #F3F5F7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fa387f;
+  border-radius: 10px;
+  border: 4px solid #F3F5F7;
+}
 
   html {
     background-color: #F3F5F7;
@@ -34,7 +56,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export const Button = styled.button`
-  background: #FA387F;
+  background: #fa387f;
   color: #fff;
   border: none;
   padding: 8px 20px;
@@ -46,12 +68,12 @@ export const Button = styled.button`
 
   &:hover {
     transform: scale(1.08);
-    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.6);
-    transition: all .5s ease;
-    background: #DB0654;
-    transition: all .5s ease;
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.6);
+    transition: all 0.5s ease;
+    background: #db0654;
+    transition: all 0.5s ease;
   }
-`
+`;
 
 const theme = {
   colors: {
@@ -67,5 +89,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }

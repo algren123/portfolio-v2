@@ -22,17 +22,7 @@ export const HeroTitle = styled.h1`
 `;
 
 export const Highlight = styled.span`
-  color: #fa387f;
-
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-    text-decoration-thickness: 8px;
-
-    @media only screen and (max-width: 1000px) {
-      text-decoration-thickness: 5px;
-    }
-  }
+  color: ${(props) => props.inputColor};
 `;
 export const HeroDescription = styled.h3`
   @media only screen and (max-width: 1000px) {

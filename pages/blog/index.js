@@ -1,8 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
 import Head from 'next/head';
 import Link from 'next/link';
+
+// Components
 import Navbar from '../../components/Navbar/navbar';
+
+// Styles
+import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;

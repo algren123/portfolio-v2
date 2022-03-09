@@ -1,3 +1,13 @@
+import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+
+// Helpers
+import { scrollToElement } from '../../helpers/index.tsx';
+
+// Styles
+import { Button } from '../../pages/_app';
+import { BiX, BiMenu } from 'react-icons/bi';
 import {
   NavContainer,
   Nav,
@@ -6,11 +16,6 @@ import {
   Menu,
   MenuItem,
 } from './navbar.style';
-import Image from 'next/image';
-import { Button } from '../../pages/_app';
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { BiX, BiMenu } from 'react-icons/bi';
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
@@ -21,36 +26,25 @@ export default function Navbar() {
     setClick(!click);
   };
 
-  const closeMenu = () => {
-    setClick(false);
-  };
-
   useEffect(() => {
     setIsBlog(window.location.href.includes('blog'));
     setIsBlogPage(window.location.href.includes('/blog/'));
   }, [setIsBlog]);
-
-  function scrollTo(element, block) {
-    document.querySelector(`${element}`).scrollIntoView({
-      behavior: 'smooth',
-      block: block,
-    });
-
-    closeMenu();
-  }
 
   return (
     <>
       <NavContainer>
         <Nav>
           <Link href={isBlog ? '/' : ''}>
-            <NavLogo onClick={isBlog ? '' : () => scrollTo('.home', 'end')}>
+            <NavLogo
+              onClick={isBlog ? '' : () => scrollToElement('.home', 'end')}
+            >
               <Image
                 src="/personal_logo.png"
                 alt="personal-logo"
                 width={80}
                 height={80}
-                layout={'fixed'}
+                layout="fixed"
                 quality={100}
               />
             </NavLogo>
@@ -80,26 +74,26 @@ export default function Navbar() {
             ) : (
               <>
                 <MenuItem>
-                  <Link href="/">
-                    <Button onClick={() => scrollTo('.projects', 'start')}>
-                      Projects
-                    </Button>
-                  </Link>
+                  <Button onClick={() => scrollToElement('.projects', 'start')}>
+                    Projects
+                  </Button>
                 </MenuItem>
                 <MenuItem>
-                  <Button onClick={() => scrollTo('.work-experience', 'start')}>
+                  <Button
+                    onClick={() => scrollToElement('.work-experience', 'start')}
+                  >
                     Experience
+                  </Button>
+                </MenuItem>
+                <MenuItem>
+                  <Button onClick={() => scrollToElement('.contact', 'start')}>
+                    Contact
                   </Button>
                 </MenuItem>
                 <MenuItem>
                   <Link href="/blog">
                     <Button>Blog</Button>
                   </Link>
-                </MenuItem>
-                <MenuItem>
-                  <Button onClick={() => scrollTo('.contact', 'start')}>
-                    Contact
-                  </Button>
                 </MenuItem>
               </>
             )}

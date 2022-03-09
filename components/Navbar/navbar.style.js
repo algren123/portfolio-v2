@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Link from 'next/link';
 
 export const NavContainer = styled.div`
   position: sticky;
@@ -15,12 +14,14 @@ export const NavContainer = styled.div`
     padding: 0px 30px;
   }
 `;
+
 export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: 1;
 `;
+
 export const NavLogo = styled.div`
   position: relative;
   float: left;
@@ -30,6 +31,7 @@ export const NavLogo = styled.div`
   display: flex;
   cursor: pointer;
 `;
+
 export const NavMenu = styled.div`
   display: flex;
   margin-right: -20px;
@@ -38,6 +40,7 @@ export const NavMenu = styled.div`
   flex: 1;
   justify-content: flex-end;
 `;
+
 export const NavItem = styled.div`
   margin-right: 30px;
   padding: 9px 0;
@@ -53,10 +56,10 @@ export const NavItem = styled.div`
     color: #fa387f;
   }
 `;
+
 export const NavLink = styled.a`
   color: #333;
 `;
-export const NavMobile = styled.div``;
 
 export const MenuIcon = styled.div`
   display: none;

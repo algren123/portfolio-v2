@@ -1,7 +1,9 @@
 import Head from 'next/head';
-import { Container, Content, Date, Title } from './blogPost.style';
 
-const BlogPost = ({ title, date }) => {
+// Styles
+import { Container, Date, Title } from './blogIntro.style';
+
+const BlogIntro = ({ title, date }) => {
   return (
     <div>
       <Head>
@@ -30,4 +32,4 @@ const BlogPost = ({ title, date }) => {
   );
 };
 
-export default BlogPost;
+export default BlogIntro;
