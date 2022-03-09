@@ -137,7 +137,6 @@ export default function Home() {
           ></Techs>
           <Techs
             category="Backend"
-            skills="Node.JS, Express, MongoDB, Firebase, AirTable"
             skills={[
               'Node.JS',
               'Express',
