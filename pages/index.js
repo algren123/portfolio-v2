@@ -114,7 +114,7 @@ export default function Home() {
           <Works
             title="Code Hero Volunteer"
             company="Cartea Daliei"
-            duration="March 2021 - Present"
+            duration="March 2021 - September 2021"
             description="Cartea Daliei is a non-profit organization that works with children from Romania. I teach a class of 4 children aged between 11-12 the fundamentals of coding with Scratch.
             After 6 weeks of lessons, I have prepared them for a Hackathon-type project where they got to work together as a team and create an animation."
           />
