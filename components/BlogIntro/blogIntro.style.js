@@ -13,7 +13,7 @@ export const Title = styled.h1`
   font-size: 62px;
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: #fa387f;
+  text-decoration-color: #1db954;
   text-decoration-thickness: 8px;
 
   @media only screen and (max-width: 1000px) {

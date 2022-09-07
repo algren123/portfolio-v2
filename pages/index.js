@@ -18,7 +18,7 @@ const Title = styled.h1`
   text-align: center;
   text-decoration: underline;
   text-decoration-thickness: 12px;
-  text-decoration-color: #fa387f;
+  text-decoration-color: #1db954;
   margin-top: 1.25em;
   cursor: default;
 

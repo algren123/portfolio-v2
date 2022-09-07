@@ -26,7 +26,7 @@ export const Card = styled.div`
 `;
 
 export const Title = styled.h2`
-  color: #90a9b7;
+  color: #1db954;
   cursor: default;
 `;
 export const Description = styled.div`
@@ -52,14 +52,14 @@ export const Button = styled.button`
   margin: 0 4px;
   border-radius: 1rem;
   cursor: pointer;
-  background-color: #90a9b7;
+  background-color: #1db954;
   border: none;
   outline: 0;
   transition: background-color 0.4s, color 0.4s, transform 0.1s;
 
   &:hover {
     a {
-      color: #f3f5f7;
+      color: #191414;
       box-shadow: 0 0 24px rgba(black, 0.2);
       transition: 0.2s ease;
     }

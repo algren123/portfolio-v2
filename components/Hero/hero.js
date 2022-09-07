@@ -20,7 +20,7 @@ export default function Hero() {
         </HeroTitle>
         <HeroDescription>
           A software engineer with a focus on{' '}
-          <Highlight inputColor="#fa387f">front-end</Highlight> that has
+          <Highlight inputColor="#1DB954">front-end</Highlight> that has
           professional experience in creating and maintaining websites. I work
           with technologies such as Angular, React, JavaScript, TypeScript and
           Node.JS

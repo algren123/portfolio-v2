@@ -20,7 +20,7 @@ export const Category = styled.h2`
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: center;
-  color: #90a9b7;
+  color: #1db954;
   cursor: default;
 `;
 export const Skills = styled.li`

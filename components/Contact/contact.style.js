@@ -1,52 +1,52 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
-    display: flex;
-`
+  display: flex;
+`;
 
 export const Card = styled.div`
-    margin: 0 auto;
-    margin-bottom: 2em;
-    width: 300px;
-    height: 250px;
-    padding: .5rem 1rem;
-    background-color: #272727;
-    border-radius: 8px;
-    box-shadow: 0 12px 32px 4px rgba(black, .2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: .2s;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  width: 300px;
+  height: 250px;
+  padding: 0.5rem 1rem;
+  background-color: #272727;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px 4px rgba(black, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
 
-    &:hover {
-        transform: translateY(-5px);
-    };
-`
+  &:hover {
+    transform: translateY(-5px);
+  }
+`;
 
 export const Intro = styled.p`
-    width: 100%;
-    font-size: 16px;
-    font-weight: 600;
-    color: #90A9B7;
-    cursor: default;
-`
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1db954;
+  cursor: default;
+`;
 
 export const Link = styled.a`
-    color: #FA387F;
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: .3em;
+  color: #1db954;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 0.3em;
 
-    &:hover {
-        text-decoration: underline 4px;
-    }
-`
+  &:hover {
+    text-decoration: underline 4px;
+  }
+`;
 
 export const Outro = styled.span`
-    font-size: 18px;
-    color: #90A9B7;
-    font-weight: 700;
-    align-self: baseline;
-    margin-left: .3em;
-`
+  font-size: 18px;
+  color: #90a9b7;
+  font-weight: 700;
+  align-self: baseline;
+  margin-left: 0.3em;
+`;

@@ -30,7 +30,7 @@ export const Company = styled.h2`
   cursor: default;
 `;
 export const Duration = styled.h3`
-  color: #fa387f;
+  color: #1db954;
   text-align: left;
   width: 100%;
   margin: 0;

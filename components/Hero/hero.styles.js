@@ -44,7 +44,7 @@ export const HeroDescription = styled.h3`
 `;
 
 export const Button = styled.button`
-  background: #fa387f;
+  background: #1db954;
   color: #fff;
   border: none;
   padding: 24px 50px;
@@ -58,14 +58,14 @@ export const Button = styled.button`
     transform: scale(1.08);
     box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.6);
     transition: all 0.5s ease;
-    background: #db0654;
+    background: #1db954;
     transition: all 0.5s ease;
   }
 `;
 
 export const TitleHighlight = styled.span`
   text-decoration: underline;
-  text-decoration-color: #fa387f;
+  text-decoration-color: #1db954;
   text-decoration-thickness: 10px;
 
   @media only screen and (max-width: 1000px) {

@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #fa387f #F3F5F7;
+  scrollbar-color: #1db954 #191414;
+  color: white;
 }
 
 /* Chrome, Edge, and Safari */
@@ -18,17 +19,17 @@ const GlobalStyle = createGlobalStyle`
 }
 
 *::-webkit-scrollbar-track {
-  background: #F3F5F7;
+  background: #191414;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #fa387f;
+  background-color: #1db954;
   border-radius: 10px;
-  border: 4px solid #F3F5F7;
+  border: 4px solid #191414;
 }
 
   html {
-    background-color: #F3F5F7;
+    background-color: #191414;
     scroll-behavior: smooth;
   }
 
@@ -49,14 +50,14 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 600;
 
     &:hover {
-      color: #FA387F;
+      color: #1db954;
       transition: all .3s ease;
     }
   }
 `;
 
 export const Button = styled.button`
-  background: #fa387f;
+  background: #1db954;
   color: #fff;
   border: none;
   padding: 8px 20px;
@@ -70,7 +71,7 @@ export const Button = styled.button`
     transform: scale(1.08);
     box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.6);
     transition: all 0.5s ease;
-    background: #db0654;
+    background: #1db954;
     transition: all 0.5s ease;
   }
 `;

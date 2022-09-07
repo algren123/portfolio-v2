@@ -10,7 +10,7 @@ export const NavContainer = styled.div`
   z-index: 1;
 
   @media only screen and (max-width: 1000px) {
-    background-color: #f3f5f7;
+    background-color: #191414;
     padding: 0px 30px;
   }
 `;
@@ -53,7 +53,7 @@ export const NavItem = styled.div`
   text-transform: none;
 
   &:hover {
-    color: #fa387f;
+    color: #1db954;
   }
 `;
 
@@ -88,7 +88,7 @@ export const Menu = styled.ul`
     position: absolute;
     top: 60px;
     left: ${({ click }) => (click ? '-11%' : '-120%')};
-    background-color: #f3f5f7;
+    background-color: #191414;
     transition: all 0.5s ease;
   }
 `;

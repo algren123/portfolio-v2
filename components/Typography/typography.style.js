@@ -14,8 +14,7 @@ export const Text = styled.p`
 export const OutroText = styled.h2`
   text-align: center;
   font-size: 32px;
-  color: #000;
   text-decoration: underline;
   text-decoration-thickness: 6px;
-  text-decoration-color: #fa387f;
+  text-decoration-color: #1db954;
 `;
