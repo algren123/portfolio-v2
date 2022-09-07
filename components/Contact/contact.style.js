@@ -28,7 +28,7 @@ export const Intro = styled.p`
   width: 100%;
   font-size: 16px;
   font-weight: 600;
-  color: #1db954;
+  color: #90a9b7;
   cursor: default;
 `;
 

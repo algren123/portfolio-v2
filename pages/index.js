@@ -126,10 +126,10 @@ export default function Home() {
             category="Frontend"
             skills={[
               'HTML/CSS and Sass',
-              'JavaScript',
               'TypeScript',
-              'React (Redux, Context, custom hooks)',
+              'JavaScript',
               'Next.JS',
+              'React (Redux, Context, Custom Hooks)',
               'Angular',
               'styled-components',
               'TailwindCSS',
@@ -137,19 +137,12 @@ export default function Home() {
           ></Techs>
           <Techs
             category="Backend"
-            skills={[
-              'Node.JS',
-              'Express',
-              'Currently learning GO',
-              'MongoDB',
-              'Firebase',
-              'AirTable',
-            ]}
+            skills={['Node.JS', 'Golang', 'MongoDB', 'Firebase', 'AirTable']}
           ></Techs>
           <Techs
             category="Others"
             skills={[
-              'AWS (Terraform, ECS, EC2)',
+              'AWS (ECS, EC2)',
               'GraphQL',
               'Apollo',
               'Docker',

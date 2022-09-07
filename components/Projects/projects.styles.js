@@ -26,7 +26,7 @@ export const Card = styled.div`
 `;
 
 export const Title = styled.h2`
-  color: #1db954;
+  color: #90a9b7;
   cursor: default;
 `;
 export const Description = styled.div`

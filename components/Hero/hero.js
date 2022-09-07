@@ -16,14 +16,13 @@ export default function Hero() {
     <div className="home">
       <Container>
         <HeroTitle>
-          Hi, I&apos;m <TitleHighlight>Algren</TitleHighlight>.{' '}
+          hi, i&apos;m <TitleHighlight>Algren</TitleHighlight>
         </HeroTitle>
         <HeroDescription>
-          A software engineer with a focus on{' '}
-          <Highlight inputColor="#1DB954">front-end</Highlight> that has
-          professional experience in creating and maintaining websites. I work
-          with technologies such as Angular, React, JavaScript, TypeScript and
-          Node.JS
+          a <Highlight inputColor="#1DB954">software engineer</Highlight> that
+          is passionate about finding optimal solutions and discovering new and
+          better ways of doing things. My favourite tools to use are typescript,
+          next.js, react, node and golang.
         </HeroDescription>
         <Button onClick={() => scrollToElement('.projects', 'start')}>
           View Projects
