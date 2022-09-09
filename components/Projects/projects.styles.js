@@ -59,7 +59,7 @@ export const Button = styled.button`
 
   &:hover {
     a {
-      color: #191414;
+      color: white;
       box-shadow: 0 0 24px rgba(black, 0.2);
       transition: 0.2s ease;
     }

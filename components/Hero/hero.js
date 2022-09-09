@@ -16,7 +16,7 @@ export default function Hero() {
     <div className="home">
       <Container>
         <HeroTitle>
-          hi, i&apos;m <TitleHighlight>Algren</TitleHighlight>
+          Hi, i&apos;m <TitleHighlight>Algren</TitleHighlight>
         </HeroTitle>
         <HeroDescription>
           a <Highlight inputColor="#1DB954">software engineer</Highlight> that
