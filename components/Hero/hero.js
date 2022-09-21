@@ -16,13 +16,13 @@ export default function Hero() {
     <div className="home">
       <Container>
         <HeroTitle>
-          Hi, i&apos;m <TitleHighlight>Algren</TitleHighlight>
+          Hi, I&apos;m <TitleHighlight>Algren</TitleHighlight>
         </HeroTitle>
         <HeroDescription>
           a <Highlight inputColor="#1DB954">software engineer</Highlight> that
           is passionate about finding optimal solutions and discovering new and
-          better ways of doing things. My favourite tools to use are typescript,
-          next.js, react, node and golang.
+          better ways of doing things. My favourite tools to use are TypeScript,
+          Next.JS, React, Node and Golang.
         </HeroDescription>
         <Button onClick={() => scrollToElement('.projects', 'start')}>
           View Projects
