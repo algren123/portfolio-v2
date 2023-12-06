@@ -19,10 +19,11 @@ export default function Hero() {
           Hi, I&apos;m <TitleHighlight>Algren</TitleHighlight>
         </HeroTitle>
         <HeroDescription>
-          a <Highlight inputColor="#1DB954">software engineer</Highlight> that
-          is passionate about finding optimal solutions and discovering new and
-          better ways of doing things. My favourite tools to use are TypeScript,
-          Next.JS, React, Node and Golang.
+          As a{' '}
+          <Highlight inputColor="#1DB954"> senior software engineer</Highlight>{' '}
+          I thrive on discovering optimal solutions and pushing the boundaries
+          of development. Proficient in TypeScript, React, React Native, Node
+          and GraphQL
         </HeroDescription>
         <Button onClick={() => scrollToElement('.projects', 'start')}>
           View Projects

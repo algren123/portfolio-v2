@@ -59,25 +59,18 @@ export default function Home() {
         <Title className="projects">Projects</Title>
         <Container>
           <Projects
+            img="/insta-bio-ai.jpg"
+            title="InstaBio AI"
+            description="A web application using OpenAI's API to generate Instagram bios for profiles or businesses. It is built using Next.JS 14, TypeScript, TailwindCSS and Vercel KV for database needs."
+            live="https://insta-bio-ai.vercel.app/"
+            github="https://github.com/algren123/insta-bio-ai"
+          />
+          <Projects
             img="/protor.JPG"
             title="Protor"
             description="A full-stack application created with the MERN stack together with NextJS. It is a public board where people can post requests for tradesmen services or professionals can create posts to advertise their services."
             live="https://protor.uk/"
             github="https://github.com/algren123/protor"
-          />
-          <Projects
-            img="/chattyio.JPG"
-            title="Chattyio"
-            description="A real-time chat application created with Next.JS, TypeScript, GraphQL, Node and styled-components. It uses WebSockets to make sending and receiving messages in real-time without having to refresh the page."
-            live="https://algren-realtime-chat.vercel.app/"
-            github="https://github.com/algren123/realtime-chat-app"
-          />
-          <Projects
-            img="/top-spotify-stats.JPG"
-            title="Top Spotify Stats"
-            description="A website that uses Spotify's API to display the user's listening statistics, such as top artists or songs of the week/month/all time. It uses Angular, TypeScript and TailwindCSS"
-            live="https://top-spotify-stats.herokuapp.com/"
-            github="https://github.com/algren123/top-spotify-stats"
           />
           <Projects
             img="/gulag-bot.JPG"
@@ -86,21 +79,20 @@ export default function Home() {
             live="https://discord.com/oauth2/authorize?client_id=858052116751974420&scope=bot"
             github="https://github.com/algren123/gulag-bot"
           />
-          <Projects
-            img="/odeko-replica.JPG"
-            title="Odeko Replica Website"
-            description="A fully responsive website that is a recreation of Odeko's (now) old website. It is primarily frontend focused and was built with React, JavaScript and Material-UI"
-            live="https://odeko-replica-react.netlify.app/"
-            github="https://github.com/algren123/odeko-replica-website"
-          />
         </Container>
 
         <Title className="work-experience">Work Experience</Title>
         <Container>
           <Works
+            title="Senior Software &nbsp; Engineer"
+            company="Sky Betting & Gaming"
+            duration="May 2023 - Present"
+            description="Received an internal promotion after leading the technical revamp of one of Sky Vegas's main pages. I am now working across squads to help them with their technical challenges and to help them deliver value to the business. I am also part of the maintainers of our Inner Source repository."
+          />
+          <Works
             title="Software &nbsp; Engineer"
             company="Sky Betting & Gaming"
-            duration="January 2022 - Present"
+            duration="January 2022 - May 20223"
             description="Taking on a new challenge and opportunity with Sky Betting & Gaming where I'll be working in the 2nd biggest tribe Sky Vegas. Working with
             cutting edge technology and dwelving into a new stack that includes Next.JS, TypeScript, AWS, Docker and many more."
           />
@@ -125,28 +117,26 @@ export default function Home() {
           <Techs
             category="Frontend"
             skills={[
-              'HTML/CSS and Sass',
+              'HTML/CSS/Sass',
               'TypeScript',
-              'JavaScript',
+              'React',
               'Next.JS',
-              'React (Redux, Context, Custom Hooks)',
-              'Angular',
+              'TDD - Jest and React Testing Library',
               'styled-components',
               'TailwindCSS',
             ]}
           ></Techs>
           <Techs
             category="Backend"
-            skills={['Node.JS', 'Golang', 'MongoDB', 'Firebase', 'AirTable']}
+            skills={['Node', 'Python', 'PostgreSQL', 'Vercel KV']}
           ></Techs>
           <Techs
-            category="Others"
+            category="Middleware/Others"
             skills={[
               'AWS (ECS, EC2)',
               'GraphQL',
               'Apollo',
               'Docker',
-              'Jest and React Testing Library',
               'Jenkins',
               'Kuzzle',
             ]}

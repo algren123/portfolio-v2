@@ -4,7 +4,7 @@ import { Card, Title, Description, Actions, Button } from './projects.styles';
 export const Projects = ({ img, title, description, live, github }) => {
   return (
     <Card>
-      <Image src={img} alt={title} width={500} height={250} />
+      <Image src={img} alt={title} width={300} height={150} />
       <Title>{title}</Title>
       <Description>{description}</Description>
       <Actions>
