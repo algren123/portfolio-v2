@@ -59,11 +59,11 @@ export default function Home() {
         <Title className="projects">Projects</Title>
         <Container>
           <Projects
-            img="/insta-bio-ai.jpg"
-            title="InstaBio AI"
-            description="A web application using OpenAI's API to generate Instagram bios for profiles or businesses. It is built using Next.JS 14, TypeScript, TailwindCSS and Vercel KV for database needs."
-            live="https://insta-bio-ai.vercel.app/"
-            github="https://github.com/algren123/insta-bio-ai"
+            img="/refinr.jpg"
+            title="Refinr AI"
+            description="A web application using OpenAI's API that acts as a digital Business Analyst and helps you refine your tickets. It is built using Next.JS 14, TypeScript, TailwindCSS, Vercel KV for database storage."
+            live="https://refinr.vercel.app/"
+            github="https://github.com/algren123/refinr"
           />
           <Projects
             img="/protor.JPG"
