@@ -66,7 +66,7 @@ export default function Home() {
             github="https://github.com/algren123/refinr"
           />
           <Projects
-            img="/cashsnap.JPG"
+            img="/cashsnap.jpg"
             title="CashSnap"
             description="CashSnap is a platform where users can log their income and expenses and get a visual report of where their money is going. It is made to be shareable which makes it easy to show financial advisors or accountants. It's built using SvelteKit and Supabase."
             live="https://cashsnap.vercel.app/"
