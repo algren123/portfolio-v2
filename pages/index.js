@@ -66,18 +66,18 @@ export default function Home() {
             github="https://github.com/algren123/refinr"
           />
           <Projects
+            img="/cashsnap.JPG"
+            title="CashSnap"
+            description="CashSnap is a platform where users can log their income and expenses and get a visual report of where their money is going. It is made to be shareable which makes it easy to show financial advisors or accountants. It's built using SvelteKit and Supabase."
+            live="https://cashsnap.vercel.app/"
+            github="https://github.com/algren123/cashsnap"
+          />
+          <Projects
             img="/protor.JPG"
             title="Protor"
             description="A full-stack application created with the MERN stack together with NextJS. It is a public board where people can post requests for tradesmen services or professionals can create posts to advertise their services."
             live="https://protor.uk/"
             github="https://github.com/algren123/protor"
-          />
-          <Projects
-            img="/gulag-bot.JPG"
-            title="Gulag Bot"
-            description="A Discord bot created in Node.JS. I created it for my own server where I spend time with my friends. It features moderation and can also play music from YouTube"
-            live="https://discord.com/oauth2/authorize?client_id=858052116751974420&scope=bot"
-            github="https://github.com/algren123/gulag-bot"
           />
         </Container>
 
