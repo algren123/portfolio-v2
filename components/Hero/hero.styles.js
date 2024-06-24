@@ -1,12 +1,15 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   cursor: default;
-  padding: 0 24em 2em 18em;
+  padding: 0 0 2em 16em;
+  display: flex;
+  flex-direction: row;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1400px) {
     padding: 0 2em;
     text-align: center;
+    flex-direction: column-reverse;
   }
 `;
 
@@ -24,6 +27,7 @@ export const HeroTitle = styled.h1`
 export const Highlight = styled.span`
   color: ${(props) => props.inputColor};
 `;
+
 export const HeroDescription = styled.h3`
   @media only screen and (max-width: 1000px) {
     text-align: center;
@@ -36,10 +40,6 @@ export const HeroDescription = styled.h3`
 
   @media only screen and (min-width: 1600px) {
     font-size: 40px;
-  }
-
-  @media only screen and (min-width: 1900px) {
-    font-size: 50px;
   }
 `;
 
@@ -70,5 +70,17 @@ export const TitleHighlight = styled.span`
 
   @media only screen and (max-width: 1000px) {
     text-decoration-thickness: 8px;
+  }
+`;
+
+export const CardContainer = styled.div`
+  @media only screen and (max-width: 1400px) {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    margin-top: 30px;
+    margin-left: -400px;
+    width: 300%;
   }
 `;
