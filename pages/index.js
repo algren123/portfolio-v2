@@ -1,17 +1,17 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 // Components
-import Navbar from '../components/Navbar/navbar';
-import Hero from '../components/Hero/hero';
-import { Projects } from '../components/Projects/projects';
-import { Works } from '../components/Work/work';
-import { Techs } from '../components/Tech/techstack';
-import { Contact } from '../components/Contact/contact';
-import Footer from '../components/Footer/footer';
+import Navbar from "../components/Navbar/navbar";
+import Hero from "../components/Hero/hero";
+import { Projects } from "../components/Projects/projects";
+import { Works } from "../components/Work/work";
+import { Techs } from "../components/Tech/techstack";
+import { Contact } from "../components/Contact/contact";
+import Footer from "../components/Footer/footer";
 
 // Styles
-import styled from 'styled-components';
-import styles from '../styles/Home.module.css';
+import styled from "styled-components";
+import styles from "../styles/Home.module.css";
 
 const Title = styled.h1`
   font-size: 80px;
@@ -92,7 +92,7 @@ export default function Home() {
           <Works
             title="Software &nbsp; Engineer"
             company="Sky Betting & Gaming"
-            duration="January 2022 - May 20223"
+            duration="January 2022 - May 2023"
             description="Taking on a new challenge and opportunity with Sky Betting & Gaming where I'll be working in the 2nd biggest tribe Sky Vegas. Working with
             cutting edge technology and dwelving into a new stack that includes Next.JS, TypeScript, AWS, Docker and many more."
           />
@@ -117,28 +117,28 @@ export default function Home() {
           <Techs
             category="Frontend"
             skills={[
-              'HTML/CSS/Sass',
-              'TypeScript',
-              'React',
-              'Next.JS',
-              'TDD - Jest and React Testing Library',
-              'styled-components',
-              'TailwindCSS',
+              "HTML/CSS/Sass",
+              "TypeScript",
+              "React",
+              "Next.JS",
+              "TDD - Jest and React Testing Library",
+              "styled-components",
+              "TailwindCSS",
             ]}
           ></Techs>
           <Techs
             category="Backend"
-            skills={['Node', 'Python', 'PostgreSQL', 'Vercel KV']}
+            skills={["Node", "Python", "PostgreSQL", "Vercel KV"]}
           ></Techs>
           <Techs
             category="Middleware/Others"
             skills={[
-              'AWS (ECS, EC2)',
-              'GraphQL',
-              'Apollo',
-              'Docker',
-              'Jenkins',
-              'Kuzzle',
+              "AWS (ECS, EC2)",
+              "GraphQL",
+              "Apollo",
+              "Docker",
+              "Jenkins",
+              "Kuzzle",
             ]}
           ></Techs>
         </Container>
